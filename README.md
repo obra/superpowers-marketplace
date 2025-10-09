@@ -37,18 +37,13 @@ Add this marketplace to Claude Code:
 
 More community plugins will be added as the marketplace grows!
 
-## Contributing
-
-Want to add your plugin to this marketplace? See [CONTRIBUTING.md](CONTRIBUTING.md)
-
 ## Marketplace Structure
 
 ```
 superpowers-marketplace/
 ├── .claude-plugin/
 │   └── marketplace.json       # Plugin catalog
-├── README.md                  # This file
-└── CONTRIBUTING.md            # Submission guidelines
+└── README.md                  # This file
 ```
 
 ## Support
