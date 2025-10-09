@@ -1,0 +1,25 @@
+{
+  "name": "superpowers-marketplace",
+  "owner": {
+    "name": "Jesse Vincent",
+    "email": "jesse@fsck.com"
+  },
+  "metadata": {
+    "description": "Curated Claude Code plugins: skills, workflows, and productivity tools",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers"
+      },
+      "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": ["skills", "tdd", "debugging", "collaboration", "best-practices", "workflows"],
+      "strict": true
+    }
+  ]
+}
