@@ -17,7 +17,6 @@
       },
       "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
       "version": "1.0.0",
-      "category": "productivity",
       "keywords": ["skills", "tdd", "debugging", "collaboration", "best-practices", "workflows"],
       "strict": true
     }
