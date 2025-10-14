@@ -13,7 +13,7 @@
       "name": "superpowers",
       "source": {
         "source": "url",
-        "url": "https://github.com/obra/superpowers.git"
+        "url": "https://github.com/nickolasclarke/superpowers.git"
       },
       "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
       "version": "1.0.0",
