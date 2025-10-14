@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Curated Claude Code plugins: skills, workflows, and productivity tools",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
@@ -16,8 +16,7 @@
         "url": "https://github.com/obra/superpowers.git"
       },
       "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
-      "version": "1.0.0",
-      "category": "productivity",
+      "version": "2.0.3",
       "keywords": ["skills", "tdd", "debugging", "collaboration", "best-practices", "workflows"],
       "strict": true
     }
