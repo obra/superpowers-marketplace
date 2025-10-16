@@ -13,7 +13,8 @@
       "name": "superpowers",
       "source": {
         "source": "url",
-        "url": "https://github.com/obra/superpowers.git"
+        "url": "https://github.com/obra/superpowers.git",
+        "path": "plugins/superpowers-bootstrap"
       },
       "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
       "version": "2.0.4",
