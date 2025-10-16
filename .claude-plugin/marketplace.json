@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Curated Claude Code plugins: skills, workflows, and productivity tools",
-    "version": "1.0.3"
+    "version": "1.0.2"
   },
   "plugins": [
     {
@@ -17,7 +17,7 @@
         "path": "plugins/superpowers-bootstrap"
       },
       "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
-      "version": "2.0.5",
+      "version": "2.0.4",
       "keywords": ["skills", "tdd", "debugging", "collaboration", "best-practices", "workflows"],
       "strict": true
     }
