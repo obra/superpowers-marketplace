@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Curated Claude Code plugins: skills, workflows, and productivity tools",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   "plugins": [
     {
@@ -18,6 +18,17 @@
       "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
       "version": "2.0.4",
       "keywords": ["skills", "tdd", "debugging", "collaboration", "best-practices", "workflows"],
+      "strict": true
+    },
+    {
+      "name": "using-chrome-directly",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpower-using-chrome-directly.git"
+      },
+      "description": "BETA: VERY LIGHTLY TESTED - Direct browser control without MCP - Chrome DevTools Protocol access via lightweight chrome-ws tool with zero dependencies, tab index syntax, and platform-agnostic startup",
+      "version": "1.0.0",
+      "keywords": ["chrome", "browser", "automation", "devtools", "cdp", "websocket", "scraping", "testing"],
       "strict": true
     }
   ]
