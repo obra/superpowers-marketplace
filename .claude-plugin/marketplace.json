@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Curated Claude Code plugins: skills, workflows, and productivity tools",
-    "version": "1.0.3"
+    "version": "1.0.4"
   },
   "plugins": [
     {
@@ -29,6 +29,17 @@
       "description": "BETA: VERY LIGHTLY TESTED - Direct browser control without MCP - Chrome DevTools Protocol access via lightweight chrome-ws tool with zero dependencies, tab index syntax, and platform-agnostic startup",
       "version": "1.0.0",
       "keywords": ["chrome", "browser", "automation", "devtools", "cdp", "websocket", "scraping", "testing"],
+      "strict": true
+    },
+    {
+      "name": "elements-of-style",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/the-elements-of-style.git"
+      },
+      "description": "Writing guidance based on William Strunk Jr.'s The Elements of Style (1918) - foundational rules for clear, concise, grammatically correct writing",
+      "version": "1.0.0",
+      "keywords": ["writing", "style", "grammar", "composition", "clarity", "documentation"],
       "strict": true
     }
   ]

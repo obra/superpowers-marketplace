@@ -33,9 +33,26 @@ Add this marketplace to Claude Code:
 
 ---
 
-## Coming Soon
+### Elements of Style
 
-More community plugins will be added as the marketplace grows!
+**Description:** Writing guidance based on William Strunk Jr.'s The Elements of Style (1918)
+
+**Categories:** Writing, Documentation, Reference
+
+**Install:**
+```bash
+/plugin install elements-of-style@superpowers-marketplace
+```
+
+**What you get:**
+- `writing-clearly-and-concisely` skill
+- Complete 1918 reference text (~12k tokens)
+- All 18 rules for clear, concise writing
+- Grammar, punctuation, and composition guidance
+
+**Repository:** https://github.com/obra/the-elements-of-style
+
+---
 
 ## Marketplace Structure
 
