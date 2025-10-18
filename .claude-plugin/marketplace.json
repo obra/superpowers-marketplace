@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Curated Claude Code plugins: skills, workflows, and productivity tools",
-    "version": "1.0.5"
+    "version": "1.0.6"
   },
   "plugins": [
     {
@@ -21,14 +21,14 @@
       "strict": true
     },
     {
-      "name": "using-chrome-directly",
+      "name": "superpowers-chrome",
       "source": {
         "source": "url",
-        "url": "https://github.com/obra/superpower-using-chrome-directly.git"
+        "url": "https://github.com/obra/superpowers-chrome.git"
       },
-      "description": "BETA: VERY LIGHTLY TESTED - Direct Chrome DevTools Protocol access. Skill mode (17 CLI commands) + MCP mode (single use_browser tool). Zero dependencies, auto-starts Chrome, minimal context usage.",
+      "description": "BETA: VERY LIGHTLY TESTED - Direct Chrome DevTools Protocol access via 'browsing' skill. Skill mode (17 CLI commands) + MCP mode (single use_browser tool). Zero dependencies, auto-starts Chrome.",
       "version": "1.1.0",
-      "keywords": ["chrome", "browser", "automation", "devtools", "cdp", "websocket", "scraping", "testing", "mcp"],
+      "keywords": ["chrome", "browser", "automation", "devtools", "cdp", "websocket", "scraping", "testing", "mcp", "browsing"],
       "strict": true
     },
     {
