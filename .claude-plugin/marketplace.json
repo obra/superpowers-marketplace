@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Curated Claude Code plugins: skills, workflows, and productivity tools",
-    "version": "1.0.7"
+    "version": "1.0.8"
   },
   "plugins": [
     {
@@ -51,6 +51,17 @@
       "description": "BETA: UNTESTED - Semantic search for Claude Code conversations. Remember past discussions, decisions, and patterns across sessions.",
       "version": "1.0.0",
       "keywords": ["memory", "search", "conversations", "semantic-search", "episodic", "history", "context"],
+      "strict": true
+    },
+    {
+      "name": "superpowers-lab",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers-lab.git"
+      },
+      "description": "Experimental skills for Superpowers: Control interactive CLI tools (vim, menuconfig, REPLs, git rebase -i) through tmux automation",
+      "version": "0.1.0",
+      "keywords": ["experimental", "interactive-commands", "tmux", "terminal-automation", "vim", "repl", "menuconfig"],
       "strict": true
     }
   ]
