@@ -49,7 +49,7 @@
         "url": "https://github.com/obra/episodic-memory.git"
       },
       "description": "Semantic search for Claude Code conversations. Remember past discussions, decisions, and patterns across sessions. Gives you memory that persists between sessions.",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "keywords": ["memory", "search", "conversations", "semantic-search", "episodic", "history", "context"],
       "strict": true
     },
