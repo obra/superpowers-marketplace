@@ -17,7 +17,6 @@
       },
       "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
       "version": "3.4.0",
-      "keywords": ["skills", "tdd", "debugging", "collaboration", "best-practices", "workflows"],
       "strict": true
     },
     {
@@ -28,7 +27,6 @@
       },
       "description": "BETA: VERY LIGHTLY TESTED - Direct Chrome DevTools Protocol access via 'browsing' skill. Skill mode (17 CLI commands) + MCP mode (single use_browser tool). Zero dependencies, auto-starts Chrome.",
       "version": "1.2.0",
-      "keywords": ["chrome", "browser", "automation", "devtools", "cdp", "websocket", "scraping", "testing", "mcp", "browsing"],
       "strict": true
     },
     {
@@ -39,7 +37,6 @@
       },
       "description": "Writing guidance based on William Strunk Jr.'s The Elements of Style (1918) - foundational rules for clear, concise, grammatically correct writing",
       "version": "1.0.0",
-      "keywords": ["writing", "style", "grammar", "composition", "clarity", "documentation"],
       "strict": true
     },
     {
@@ -50,7 +47,6 @@
       },
       "description": "Semantic search for Claude Code conversations. Remember past discussions, decisions, and patterns across sessions. Gives you memory that persists between sessions.",
       "version": "1.0.6",
-      "keywords": ["memory", "search", "conversations", "semantic-search", "episodic", "history", "context"],
       "strict": true
     },
     {
@@ -61,7 +57,16 @@
       },
       "description": "Experimental skills for Superpowers: Control interactive CLI tools (vim, menuconfig, REPLs, git rebase -i) through tmux automation",
       "version": "0.1.0",
-      "keywords": ["experimental", "interactive-commands", "tmux", "terminal-automation", "vim", "repl", "menuconfig"],
+      "strict": true
+    },
+    {
+      "name": "superpowers-developing-for-claude-code",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers-developing-for-claude-code.git"
+      },
+      "description": "Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions. Includes comprehensive official documentation and self-update mechanism.",
+      "version": "0.1.0",
       "strict": true
     }
   ]
