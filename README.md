@@ -54,6 +54,27 @@ Add this marketplace to Claude Code:
 
 ---
 
+### Superpowers: Developing for Claude Code
+
+**Description:** Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions
+
+**Categories:** Development, Documentation, Claude Code, Plugin Development
+
+**Install:**
+```bash
+/plugin install superpowers-developing-for-claude-code@superpowers-marketplace
+```
+
+**What you get:**
+- `working-with-claude-code` skill with 42+ official documentation files
+- `developing-claude-code-plugins` skill for streamlined development workflows
+- Self-update mechanism for documentation
+- Complete reference for plugin development, skills, MCP servers, and extensions
+
+**Repository:** https://github.com/obra/superpowers-developing-for-claude-code
+
+---
+
 ## Marketplace Structure
 
 ```
