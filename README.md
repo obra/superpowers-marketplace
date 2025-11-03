@@ -75,6 +75,38 @@ Add this marketplace to Claude Code:
 
 ---
 
+### Neurodivergent Visual Organization
+
+**Description:** Visual organization tools designed for neurodivergent thinking patterns - transform overwhelming tasks into compassionate, actionable Mermaid diagrams
+
+**Categories:** Productivity, Accessibility, ADHD, Autism, Executive Function, Mental Health
+
+**Install:**
+```bash
+/plugin install neurodivergent-visual-org@superpowers-marketplace
+```
+
+**What you get:**
+- `neurodivergent-visual-org` skill with 8 pattern libraries (90KB+ of compassionate templates)
+- Task breakdowns (3-10 minute micro-steps, energy-aware sequencing)
+- Decision tools (trees, matrices, elimination filters for analysis paralysis)
+- Project maps (phases, dependencies, MVP breakdowns)
+- Current state boards (Kanban, priority matrices, triage flows)
+- Time-boxing (Pomodoro, energy mapping, focus sessions for time blindness)
+- Habit building (tiny habits, routine sequences, momentum tracking)
+- Accountability support (body doubling, check-ins, crisis protocols)
+- Focus regulation (pre-task calm-down, sensory tools, recovery protocols)
+
+**Perfect for:**
+- ADHD, autism, and other neurodivergent conditions
+- Executive dysfunction and decision paralysis
+- Time blindness and overwhelm
+- Anyone needing external structure for focus
+
+**Repository:** https://github.com/JackReis/neurodivergent-visual-org
+
+---
+
 ## Marketplace Structure
 
 ```
