@@ -68,6 +68,16 @@
       "description": "Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions. Includes comprehensive official documentation and self-update mechanism.",
       "version": "0.2.0",
       "strict": true
+    },
+    {
+      "name": "neurodivergent-visual-org",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JackReis/neurodivergent-visual-org.git"
+      },
+      "description": "Visual organization tools for neurodivergent thinking - Creates compassionate Mermaid diagrams for task breakdowns, decision trees, project maps, time-boxing, habit building, and focus regulation. Designed for ADHD, autism, executive dysfunction, and time blindness.",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
