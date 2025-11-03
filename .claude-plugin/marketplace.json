@@ -75,8 +75,8 @@
         "source": "url",
         "url": "https://github.com/JackReis/neurodivergent-visual-org.git"
       },
-      "description": "Visual organization tools for neurodivergent thinking - Creates compassionate Mermaid diagrams for task breakdowns, decision trees, project maps, time-boxing, habit building, and focus regulation. Designed for ADHD, autism, executive dysfunction, and time blindness.",
-      "version": "1.0.0",
+      "description": "Visual organization tools for neurodivergent thinking (v2.0: 22 Mermaid diagram types with research-backed design) - Creates compassionate diagrams for task breakdowns, decision trees, project maps, time-boxing, habit building, and focus regulation. Designed for ADHD, autism, executive dysfunction, and time blindness.",
+      "version": "2.0.0",
       "strict": true
     }
   ]
