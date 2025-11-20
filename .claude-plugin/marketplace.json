@@ -68,6 +68,16 @@
       "description": "Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions. Includes comprehensive official documentation and self-update mechanism.",
       "version": "0.2.0",
       "strict": true
+    },
+    {
+      "name": "double-shot-latte",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/double-shot-latte.git"
+      },
+      "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
