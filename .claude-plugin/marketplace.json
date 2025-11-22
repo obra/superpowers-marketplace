@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Curated Claude Code plugins: skills, workflows, and productivity tools",
-    "version": "1.0.8"
+    "version": "1.0.9"
   },
   "plugins": [
     {
@@ -66,7 +66,7 @@
         "url": "https://github.com/obra/superpowers-developing-for-claude-code.git"
       },
       "description": "Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions. Includes comprehensive official documentation and self-update mechanism.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "strict": true
     },
     {
