@@ -16,7 +16,7 @@
         "url": "https://github.com/obra/superpowers.git"
       },
       "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
-      "version": "3.4.1",
+      "version": "3.5.1",
       "strict": true
     },
     {
