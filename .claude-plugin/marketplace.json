@@ -76,7 +76,7 @@
         "url": "https://github.com/obra/double-shot-latte.git"
       },
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "strict": true
     }
   ]
