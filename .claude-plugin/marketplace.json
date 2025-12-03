@@ -66,7 +66,7 @@
         "url": "https://github.com/obra/superpowers-developing-for-claude-code.git"
       },
       "description": "Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions. Includes comprehensive official documentation and self-update mechanism.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "strict": true
     },
     {
