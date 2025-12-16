@@ -92,6 +92,8 @@ Add this marketplace to Claude Code:
 - Safety bailout (stops if triggered 3 times in 5 minutes)
 - **Note:** You must restart Claude Code after installing for the hook to load.
 
+**Repository:** https://github.com/obra/double-shot-latte
+
 ---
 
 ## Marketplace Structure
