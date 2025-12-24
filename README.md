@@ -75,6 +75,27 @@ Add this marketplace to Claude Code:
 
 ---
 
+### Double Shot Latte
+
+**Description:** A "Stop" hook that automates the "continue" loop. It uses a judge agent to determine if Claude should keep working unsupervised or genuinely needs human input.
+
+**Categories:** Automation, Productivity, Workflow
+
+**Install:**
+```bash
+/plugin install double-shot-latte@superpowers-marketplace
+```
+
+**What you get:**
+- Automated handling of intermediate stops ("continue")
+- Judge agent to evaluate work progress
+- Safety bailout (stops if triggered 3 times in 5 minutes)
+- **Note:** You must restart Claude Code after installing for the hook to load.
+
+**Repository:** https://github.com/obra/double-shot-latte
+
+---
+
 ## Marketplace Structure
 
 ```
