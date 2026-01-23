@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, workflows, and productivity tools",
-    "version": "1.0.10"
+    "version": "1.0.11"
   },
   "plugins": [
     {
@@ -16,7 +16,7 @@
         "url": "https://github.com/obra/superpowers.git"
       },
       "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
-      "version": "4.1.0",
+      "version": "4.1.1",
       "strict": true
     },
     {
