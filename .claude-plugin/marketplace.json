@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, workflows, and productivity tools",
-    "version": "1.0.11"
+    "version": "1.0.12"
   },
   "plugins": [
     {
@@ -55,8 +55,8 @@
         "source": "url",
         "url": "https://github.com/obra/superpowers-lab.git"
       },
-      "description": "Experimental skills for Superpowers: Control interactive CLI tools (vim, menuconfig, REPLs, git rebase -i) through tmux automation",
-      "version": "0.1.0",
+      "description": "Experimental skills for Superpowers: tmux automation for interactive CLIs, MCP server discovery, duplicate function detection, Slack messaging",
+      "version": "0.3.0",
       "strict": true
     },
     {
