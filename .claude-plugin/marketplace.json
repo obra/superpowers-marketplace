@@ -78,6 +78,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.1.5",
       "strict": true
+    },
+    {
+      "name": "declutter",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anupamchugh/declutter.git"
+      },
+      "description": "Skill + MCP to detect workspace bloat and auto-generate .claudeignore. Fixes Claude Code freezing on large projects.",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
