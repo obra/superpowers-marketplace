@@ -70,6 +70,17 @@
       "strict": true
     },
     {
+      "name": "superpowers-dev",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git",
+        "ref": "dev"
+      },
+      "description": "DEV BRANCH: YOU MUST UNINSTALL OTHER VERSIONS OF SUPERPOWERS BEFORE INSTALLING THIS",
+      "version": "0.0.2026021000",
+      "strict": true
+    },
+    {
       "name": "double-shot-latte",
       "source": {
         "source": "url",
