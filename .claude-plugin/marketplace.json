@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, workflows, and productivity tools",
-    "version": "1.0.12"
+    "version": "1.0.13"
   },
   "plugins": [
     {
@@ -78,6 +78,16 @@
       },
       "description": "DEV BRANCH: YOU MUST UNINSTALL OTHER VERSIONS OF SUPERPOWERS BEFORE INSTALLING THIS",
       "version": "0.0.2026021001",
+      "strict": true
+    },
+    {
+      "name": "claude-session-driver",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/claude-session-driver.git"
+      },
+      "description": "Launch, control, and monitor other Claude Code sessions as workers via tmux",
+      "version": "1.0.0",
       "strict": true
     },
     {
