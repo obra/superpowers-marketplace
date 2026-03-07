@@ -99,6 +99,36 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "mac-ai-optimizer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dongsheng123132/mac-ai-optimizer.git"
+      },
+      "description": "Optimize macOS for AI workloads. Reduce idle memory from 6GB to 2.5GB by disabling background services, UI overhead, configuring Docker limits, and enabling SSH. Turn 8GB Mac into AI server node.",
+      "version": "1.0.0",
+      "strict": true
+    },
+    {
+      "name": "social-copy-generator",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dongsheng123132/social-copy-generator.git"
+      },
+      "description": "Generate platform-optimized social media copy for 6 platforms (Twitter, Xiaohongshu, Jike, WeChat, Video Account, LinkedIn) with HTML one-click-copy output.",
+      "version": "1.0.0",
+      "strict": true
+    },
+    {
+      "name": "skill-multi-publisher",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dongsheng123132/skill-multi-publisher.git"
+      },
+      "description": "One-command publish skills to ALL major marketplaces: GitHub, ClawHub, and community directories. Auto-validates, generates files, publishes, and submits PRs.",
+      "version": "2.0.0",
+      "strict": true
     }
   ]
 }
