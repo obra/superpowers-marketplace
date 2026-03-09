@@ -11,6 +11,10 @@
   "plugins": [
     {
       "name": "superpowers",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git"
@@ -21,6 +25,10 @@
     },
     {
       "name": "superpowers-chrome",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers-chrome.git"
@@ -31,6 +39,10 @@
     },
     {
       "name": "elements-of-style",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/obra/the-elements-of-style.git"
@@ -41,6 +53,10 @@
     },
     {
       "name": "episodic-memory",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/obra/episodic-memory.git"
@@ -51,6 +67,10 @@
     },
     {
       "name": "superpowers-lab",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers-lab.git"
@@ -61,6 +81,10 @@
     },
     {
       "name": "superpowers-developing-for-claude-code",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers-developing-for-claude-code.git"
@@ -71,6 +95,10 @@
     },
     {
       "name": "superpowers-dev",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
@@ -82,6 +110,10 @@
     },
     {
       "name": "claude-session-driver",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/obra/claude-session-driver.git"
@@ -92,6 +124,10 @@
     },
     {
       "name": "double-shot-latte",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/obra/double-shot-latte.git"
