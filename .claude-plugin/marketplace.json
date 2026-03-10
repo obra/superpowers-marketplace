@@ -99,6 +99,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "progressive-estimation",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Enreign/progressive-estimation.git"
+      },
+      "description": "Research-backed estimation for AI-assisted and hybrid development work with PERT statistics and calibration",
+      "version": "0.3.0",
+      "strict": true
     }
   ]
 }
