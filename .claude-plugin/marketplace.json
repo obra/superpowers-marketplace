@@ -104,7 +104,8 @@
       "name": "progressive-estimation",
       "source": {
         "source": "url",
-        "url": "https://github.com/Enreign/progressive-estimation.git"
+        "url": "https://github.com/Enreign/progressive-estimation.git",
+        "ref": "v0.3.0"
       },
       "description": "Research-backed estimation for AI-assisted and hybrid development work with PERT statistics and calibration",
       "version": "0.3.0",
