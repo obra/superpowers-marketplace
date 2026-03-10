@@ -99,6 +99,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "pm-ai-partner",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ahmedkhaledmohamed/PM-AI-Partner-Framework.git"
+      },
+      "description": "12 PM-specific agent skills (thought partner, devil's advocate, technical analyst, etc.), 6 workflow commands, 3 automation hooks, and 17 MCP server configs for Product Managers",
+      "version": "3.0.0",
+      "strict": true
     }
   ]
 }
