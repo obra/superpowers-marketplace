@@ -104,9 +104,10 @@
       "name": "shield",
       "source": {
         "source": "url",
-        "url": "https://github.com/alissonlinneker/shield-claude-skill.git"
+        "url": "https://github.com/alissonlinneker/shield-claude-skill.git",
+        "ref": "v0.1.0"
       },
-      "description": "Security orchestrator — runs Shannon autonomous pentests, Semgrep SAST, gitleaks secrets scanning, and npm/pip/composer dependency audits from a single /shield command. Consolidates findings with OWASP/CWE classification, calculates a 0-100 risk score, proposes code fixes, checks for outdated dependencies, and creates GitHub issues.",
+      "description": "Security orchestrator — runs Shannon autonomous pentests, Semgrep SAST, gitleaks secrets scanning, and npm/pip/composer dependency audits from a single /shield:shield command. Consolidates findings with OWASP/CWE classification, calculates a 0-100 risk score, proposes code fixes, checks for outdated dependencies, and creates GitHub issues.",
       "version": "0.1.0",
       "strict": true
     }
