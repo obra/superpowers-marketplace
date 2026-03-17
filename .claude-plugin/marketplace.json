@@ -99,6 +99,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "firmis-security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/firmislabs/firmis-security.git"
+      },
+      "description": "AI agent security — scan, fix, triage, and compliance reports for MCP servers, Claude skills, and AI agent projects. 227 detection rules, 17 threat categories.",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
