@@ -75,6 +75,16 @@ Add this marketplace to Claude Code:
 
 ---
 
+### claude-dash
+
+**Description:** Real-time statusline for Claude Code — context health, cost, quota, cache efficiency, tool activity, and git status
+
+**Categories:** Monitoring, Productivity, Developer Tools
+
+**Repository:** https://github.com/krabat-l/claude-dash
+
+---
+
 ## Marketplace Structure
 
 ```
