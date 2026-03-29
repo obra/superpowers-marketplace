@@ -1,104 +1,114 @@
 {
-  "name": "superpowers-marketplace",
-  "owner": {
-    "name": "Jesse Vincent",
-    "email": "jesse@fsck.com"
-  },
-  "metadata": {
-    "description": "Skills, workflows, and productivity tools",
-    "version": "1.0.13"
-  },
-  "plugins": [
-    {
-      "name": "superpowers",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/obra/superpowers.git"
-      },
-      "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
-      "version": "5.0.6",
-      "strict": true
+    "name": "superpowers-marketplace",
+    "owner": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
     },
-    {
-      "name": "superpowers-chrome",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/obra/superpowers-chrome.git"
-      },
-      "description": "BETA: VERY LIGHTLY TESTED - Direct Chrome DevTools Protocol access via 'browsing' skill. Skill mode (17 CLI commands) + MCP mode (single use_browser tool). Zero dependencies, auto-starts Chrome.",
-      "version": "1.8.0",
-      "strict": true
+    "metadata": {
+        "description": "Skills, workflows, and productivity tools",
+        "version": "1.0.13"
     },
-    {
-      "name": "elements-of-style",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/obra/the-elements-of-style.git"
-      },
-      "description": "Writing guidance based on William Strunk Jr.'s The Elements of Style (1918) - foundational rules for clear, concise, grammatically correct writing",
-      "version": "1.0.0",
-      "strict": true
-    },
-    {
-      "name": "episodic-memory",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/obra/episodic-memory.git"
-      },
-      "description": "Semantic search for Claude Code conversations. Remember past discussions, decisions, and patterns across sessions. Gives you memory that persists between sessions.",
-      "version": "1.0.15",
-      "strict": true
-    },
-    {
-      "name": "superpowers-lab",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/obra/superpowers-lab.git"
-      },
-      "description": "Experimental skills for Superpowers: tmux automation for interactive CLIs, MCP server discovery, duplicate function detection, Slack messaging, headless Windows VM",
-      "version": "0.4.0",
-      "strict": true
-    },
-    {
-      "name": "superpowers-developing-for-claude-code",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/obra/superpowers-developing-for-claude-code.git"
-      },
-      "description": "Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions. Includes comprehensive official documentation and self-update mechanism.",
-      "version": "0.3.1",
-      "strict": true
-    },
-    {
-      "name": "superpowers-dev",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/obra/superpowers.git",
-        "ref": "dev"
-      },
-      "description": "DEV BRANCH: YOU MUST UNINSTALL OTHER VERSIONS OF SUPERPOWERS BEFORE INSTALLING THIS",
-      "version": "0.0.2026021001",
-      "strict": true
-    },
-    {
-      "name": "claude-session-driver",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/obra/claude-session-driver.git"
-      },
-      "description": "Launch, control, and monitor other Claude Code sessions as workers via tmux",
-      "version": "1.0.1",
-      "strict": true
-    },
-    {
-      "name": "double-shot-latte",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/obra/double-shot-latte.git"
-      },
-      "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
-      "version": "1.2.0",
-      "strict": true
-    }
-  ]
+    "plugins": [
+        {
+            "name": "superpowers",
+            "source": {
+                "source": "url",
+                "url": "https://github.com/obra/superpowers.git"
+            },
+            "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
+            "version": "5.0.6",
+            "strict": true
+        },
+        {
+            "name": "superpowers-chrome",
+            "source": {
+                "source": "url",
+                "url": "https://github.com/obra/superpowers-chrome.git"
+            },
+            "description": "BETA: VERY LIGHTLY TESTED - Direct Chrome DevTools Protocol access via 'browsing' skill. Skill mode (17 CLI commands) + MCP mode (single use_browser tool). Zero dependencies, auto-starts Chrome.",
+            "version": "1.8.0",
+            "strict": true
+        },
+        {
+            "name": "elements-of-style",
+            "source": {
+                "source": "url",
+                "url": "https://github.com/obra/the-elements-of-style.git"
+            },
+            "description": "Writing guidance based on William Strunk Jr.'s The Elements of Style (1918) - foundational rules for clear, concise, grammatically correct writing",
+            "version": "1.0.0",
+            "strict": true
+        },
+        {
+            "name": "episodic-memory",
+            "source": {
+                "source": "url",
+                "url": "https://github.com/obra/episodic-memory.git"
+            },
+            "description": "Semantic search for Claude Code conversations. Remember past discussions, decisions, and patterns across sessions. Gives you memory that persists between sessions.",
+            "version": "1.0.15",
+            "strict": true
+        },
+        {
+            "name": "superpowers-lab",
+            "source": {
+                "source": "url",
+                "url": "https://github.com/obra/superpowers-lab.git"
+            },
+            "description": "Experimental skills for Superpowers: tmux automation for interactive CLIs, MCP server discovery, duplicate function detection, Slack messaging, headless Windows VM",
+            "version": "0.4.0",
+            "strict": true
+        },
+        {
+            "name": "superpowers-developing-for-claude-code",
+            "source": {
+                "source": "url",
+                "url": "https://github.com/obra/superpowers-developing-for-claude-code.git"
+            },
+            "description": "Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions. Includes comprehensive official documentation and self-update mechanism.",
+            "version": "0.3.1",
+            "strict": true
+        },
+        {
+            "name": "superpowers-dev",
+            "source": {
+                "source": "url",
+                "url": "https://github.com/obra/superpowers.git",
+                "ref": "dev"
+            },
+            "description": "DEV BRANCH: YOU MUST UNINSTALL OTHER VERSIONS OF SUPERPOWERS BEFORE INSTALLING THIS",
+            "version": "0.0.2026021001",
+            "strict": true
+        },
+        {
+            "name": "claude-session-driver",
+            "source": {
+                "source": "url",
+                "url": "https://github.com/obra/claude-session-driver.git"
+            },
+            "description": "Launch, control, and monitor other Claude Code sessions as workers via tmux",
+            "version": "1.0.1",
+            "strict": true
+        },
+        {
+            "name": "double-shot-latte",
+            "source": {
+                "source": "url",
+                "url": "https://github.com/obra/double-shot-latte.git"
+            },
+            "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
+            "version": "1.2.0",
+            "strict": true
+        },
+        {
+            "name": "session-letter",
+            "source": {
+                "source": "url",
+                "url": "https://github.com/catcam/session-letter.git"
+            },
+            "description": "Continuity across AI sessions \u2014 Claude writes a letter to its future self at session end, reads it at session start. Addresses the gap between compact summaries (data) and actual continuity (voice, context).",
+            "version": "1.0.0",
+            "strict": false
+        }
+    ]
 }
