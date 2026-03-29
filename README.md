@@ -75,6 +75,26 @@ Add this marketplace to Claude Code:
 
 ---
 
+### Session Letter
+
+**Description:** Continuity across AI sessions — Claude writes a letter to its future self at session end, reads it at session start
+
+**Categories:** Workflow, Memory, Continuity, Sessions
+
+**Install:**
+```bash
+/plugin install session-letter@superpowers-marketplace
+```
+
+**What you get:**
+- `/session-letter` skill — writes a letter with voice, not just data
+- `hooks/session-start.sh` — injects last letter into session context
+- `hooks/pre-compact.sh` — reminds before auto-compact
+
+**Repository:** https://github.com/catcam/session-letter
+
+---
+
 ## Marketplace Structure
 
 ```
