@@ -99,6 +99,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "8eyes",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AgentBuildersApp/eight-eyes.git"
+      },
+      "description": "Multi-agent code review with 8 hook-enforced roles. Blind skeptic, security auditor, verifier, and 5 more \u2014 each scoped to a different failure surface.",
+      "version": "4.1.0",
+      "strict": true
     }
   ]
 }

@@ -75,6 +75,29 @@ Add this marketplace to Claude Code:
 
 ---
 
+### eight-eyes
+
+**Description:** Multi-agent code review with 8 hook-enforced roles. Each role is scoped to a different failure surface — the security auditor cannot edit files, the skeptic reviews blind without the implementer’s narrative, the verifier must prove acceptance criteria with evidence.
+
+**Categories:** Code Review, Security, Testing, Accessibility, Quality Gates
+
+**Install:**
+
+```bash
+/plugin install 8eyes@superpowers-marketplace
+```
+
+**What you get:**
+
+- 8 specialized review roles with hook-enforced scope boundaries
+- Parallel audit phase (skeptic, security, performance, accessibility)
+- Blind skeptic review — no anchoring on implementer’s narrative
+- collabctl CLI for mission state, timeline, and consolidated reports
+- TDD mode, custom roles, multi-model routing
+- 142 tests, stdlib-only Python, cross-platform
+
+**Repository:** https://github.com/AgentBuildersApp/eight-eyes
+
 ## Marketplace Structure
 
 ```
