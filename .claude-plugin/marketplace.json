@@ -99,6 +99,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "shopify-web-scraper",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eyes0729/shopify-web-scraper-skill.git"
+      },
+      "description": "Web scraping patterns for Shopify App Store research: extract reviews, usage duration, pricing, and feature history. Includes Wayback Machine snapshots and general web extraction. Primarily designed for Shopify App Store competitive research.",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
