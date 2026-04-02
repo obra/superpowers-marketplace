@@ -99,6 +99,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "extract-alpha",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/furic/extract-alpha-skill.git"
+      },
+      "description": "Remove background from AI-generated images using two-pass difference matting. Generate the same image on white and black backgrounds, then extract pixel-perfect transparency.",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
