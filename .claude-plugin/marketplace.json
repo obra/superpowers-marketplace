@@ -99,6 +99,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "shipwright",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Wynelson94/shipwright.git"
+      },
+      "description": "Describe your app in plain English \u2014 Shipwright builds, tests, and deploys it autonomously. 9-phase pipeline, 4 stacks, enterprise-grade safety hooks.",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
