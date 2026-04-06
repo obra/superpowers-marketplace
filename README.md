@@ -75,6 +75,28 @@ Add this marketplace to Claude Code:
 
 ---
 
+### Shipwright
+
+**Description:** Describe your app in plain English — Shipwright builds, tests, and deploys it autonomously. 9-phase pipeline, 4 stacks, enterprise-grade safety hooks.
+
+**Categories:** App Builder, Autonomous Agent, Pipeline
+
+**Install:**
+```bash
+/plugin install shipwright@superpowers-marketplace
+```
+
+**What you get:**
+- Autonomous 9-phase build pipeline (scaffold, implement, test, lint, security, docs, deploy)
+- 4 production-ready stacks (Next.js, FastAPI, Express, Static)
+- `/shipwright:build`, `/shipwright:enhance`, `/shipwright:stacks`, `/shipwright:projects` commands
+- Enterprise-grade safety hooks (test coverage, security audit, lint-clean)
+- Powered by [product-agent](https://pypi.org/project/product-agent/) on PyPI
+
+**Repository:** https://github.com/Wynelson94/shipwright
+
+---
+
 ## Marketplace Structure
 
 ```
