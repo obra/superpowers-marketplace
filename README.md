@@ -75,6 +75,26 @@ Add this marketplace to Claude Code:
 
 ---
 
+### Firmis Security
+
+**Description:** AI agent security — scan, fix, triage, and compliance reports
+
+**Categories:** Security, AI Agents, MCP, Scanning, Compliance
+
+**Install:**
+```bash
+/plugin install firmis-security@superpowers-marketplace
+```
+
+**What you get:**
+- `/security-scan` — scan any project for AI agent security threats (227 rules, 17 categories)
+- `/security-fix` — auto-fix with dry-run preview, backup/restore, tier-based approval
+- `/security-report` — full assessment with HTML report + compliance mapping (SOC 2, EU AI Act, GDPR)
+
+**Repository:** https://github.com/firmislabs/firmis-security
+
+---
+
 ## Marketplace Structure
 
 ```
