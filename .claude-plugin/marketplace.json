@@ -10,23 +10,23 @@
   },
   "plugins": [
     {
-      "name": "superpowers",
+      "name": "claude-session-driver",
       "source": {
         "source": "url",
-        "url": "https://github.com/obra/superpowers.git"
+        "url": "https://github.com/obra/claude-session-driver.git"
       },
-      "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
-      "version": "5.0.7",
+      "description": "Launch, control, and monitor other Claude Code sessions as workers via tmux",
+      "version": "1.0.1",
       "strict": true
     },
     {
-      "name": "superpowers-chrome",
+      "name": "double-shot-latte",
       "source": {
         "source": "url",
-        "url": "https://github.com/obra/superpowers-chrome.git"
+        "url": "https://github.com/obra/double-shot-latte.git"
       },
-      "description": "BETA: VERY LIGHTLY TESTED - Direct Chrome DevTools Protocol access via 'browsing' skill. Skill mode (17 CLI commands) + MCP mode (single use_browser tool). Zero dependencies, auto-starts Chrome.",
-      "version": "1.10.0",
+      "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
+      "version": "1.2.0",
       "strict": true
     },
     {
@@ -50,23 +50,33 @@
       "strict": true
     },
     {
-      "name": "superpowers-lab",
+      "name": "private-journal-mcp",
       "source": {
         "source": "url",
-        "url": "https://github.com/obra/superpowers-lab.git"
+        "url": "https://github.com/obra/private-journal-mcp.git"
       },
-      "description": "Experimental skills for Superpowers: tmux automation for interactive CLIs, MCP server discovery, duplicate function detection, Slack messaging, headless Windows VM",
-      "version": "0.4.0",
+      "description": "Private journaling MCP server with semantic search. Multi-section entries (feelings, project notes, technical insights), local AI embeddings, and full-text retrieval.",
+      "version": "1.2.0",
       "strict": true
     },
     {
-      "name": "superpowers-developing-for-claude-code",
+      "name": "superpowers",
       "source": {
         "source": "url",
-        "url": "https://github.com/obra/superpowers-developing-for-claude-code.git"
+        "url": "https://github.com/obra/superpowers.git"
       },
-      "description": "Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions. Includes comprehensive official documentation and self-update mechanism.",
-      "version": "0.3.1",
+      "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
+      "version": "5.0.7",
+      "strict": true
+    },
+    {
+      "name": "superpowers-chrome",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers-chrome.git"
+      },
+      "description": "BETA: VERY LIGHTLY TESTED - Direct Chrome DevTools Protocol access via 'browsing' skill. Skill mode (17 CLI commands) + MCP mode (single use_browser tool). Zero dependencies, auto-starts Chrome.",
+      "version": "1.10.0",
       "strict": true
     },
     {
@@ -81,34 +91,30 @@
       "strict": true
     },
     {
-      "name": "claude-session-driver",
+      "name": "superpowers-developing-for-claude-code",
       "source": {
         "source": "url",
-        "url": "https://github.com/obra/claude-session-driver.git"
+        "url": "https://github.com/obra/superpowers-developing-for-claude-code.git"
       },
-      "description": "Launch, control, and monitor other Claude Code sessions as workers via tmux",
-      "version": "1.0.1",
+      "description": "Skills and resources for developing Claude Code plugins, skills, MCP servers, and extensions. Includes comprehensive official documentation and self-update mechanism.",
+      "version": "0.3.1",
       "strict": true
     },
     {
-      "name": "private-journal-mcp",
+      "name": "superpowers-lab",
       "source": {
         "source": "url",
-        "url": "https://github.com/obra/private-journal-mcp.git"
+        "url": "https://github.com/obra/superpowers-lab.git"
       },
-      "description": "Private journaling MCP server with semantic search. Multi-section entries (feelings, project notes, technical insights), local AI embeddings, and full-text retrieval.",
-      "version": "1.2.0",
+      "description": "Experimental skills for Superpowers: tmux automation for interactive CLIs, MCP server discovery, duplicate function detection, Slack messaging, headless Windows VM",
+      "version": "0.4.0",
       "strict": true
     },
     {
-      "name": "double-shot-latte",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/obra/double-shot-latte.git"
-      },
-      "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
-      "version": "1.2.0",
-      "strict": true
+      "name": "toprank",
+      "repo": "https://github.com/nowork-studio/toprank",
+      "description": "Open-source MIT Claude Code plugin with 9 SEO and Google Ads skills; connects Google Search Console, PageSpeed Insights, and Google Ads API.",
+      "category": "Developer Productivity Tools"
     }
   ]
 }
