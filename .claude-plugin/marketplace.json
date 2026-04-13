@@ -36,7 +36,7 @@
         "url": "https://github.com/obra/the-elements-of-style.git"
       },
       "description": "Writing guidance based on William Strunk Jr.'s The Elements of Style (1918) - foundational rules for clear, concise, grammatically correct writing",
-      "version": "1.1.0",
+      "version": "1.0.0",
       "strict": true
     },
     {
