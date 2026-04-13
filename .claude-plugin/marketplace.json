@@ -36,7 +36,7 @@
         "url": "https://github.com/obra/the-elements-of-style.git"
       },
       "description": "Writing guidance based on William Strunk Jr.'s The Elements of Style (1918) - foundational rules for clear, concise, grammatically correct writing",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "strict": true
     },
     {
@@ -116,8 +116,8 @@
         "source": "url",
         "url": "https://github.com/Rainnystone/superpowers-flow-enforcer.git"
       },
-      "description": "Workflow-aware hook gates for Superpowers that enforce phase transitions, TDD-first writes, two-stage review checks, and fresh verification evidence before completion claims.",
-      "version": "1.0.0",
+      "description": "Workflow-aware hook gates for Superpowers that enforce phase transitions, TDD-first writes, packetized Agent task-boundary review gates, and fresh verification evidence before completion claims.",
+      "version": "1.1.0",
       "strict": true
     }
   ]
