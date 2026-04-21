@@ -109,6 +109,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "technical-change-skill",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Elkidogz/technical-change-skill.git"
+      },
+      "description": "Structured code change tracking with JSON records, state machine validation, AI session handoff, and accessible HTML output. 9 commands for full change lifecycle.",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
