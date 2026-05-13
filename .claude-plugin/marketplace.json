@@ -87,7 +87,7 @@
         "url": "https://github.com/obra/claude-session-driver.git"
       },
       "description": "Launch, control, and monitor other Claude Code sessions as workers via tmux",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "strict": true
     },
     {
