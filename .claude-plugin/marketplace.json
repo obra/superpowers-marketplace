@@ -26,7 +26,7 @@
         "url": "https://github.com/obra/superpowers-chrome.git"
       },
       "description": "Direct Chrome DevTools Protocol access via 'browsing' skill. Skill mode (CLI commands) + MCP mode (single use_browser tool). Zero dependencies, auto-starts Chrome.",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "strict": true
     },
     {
