@@ -55,8 +55,8 @@
         "source": "url",
         "url": "https://github.com/obra/superpowers-lab.git"
       },
-      "description": "Experimental skills for Superpowers: tmux automation for interactive CLIs, MCP server discovery, duplicate function detection, Slack messaging, headless Windows VM",
-      "version": "0.4.0",
+      "description": "Experimental skills for Superpowers: tmux automation for interactive CLIs, MCP server discovery, duplicate function detection, headless Windows VM",
+      "version": "0.5.0",
       "strict": true
     },
     {
