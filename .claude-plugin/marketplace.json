@@ -96,8 +96,8 @@
         "source": "url",
         "url": "https://github.com/obra/private-journal-mcp.git"
       },
-      "description": "Private journaling MCP server with semantic search. Multi-section entries (feelings, project notes, technical insights), local AI embeddings, and full-text retrieval.",
-      "version": "1.2.0",
+      "description": "Private journaling MCP server with semantic search. Multi-section entries (reflections, observations, project notes, technical insights), local AI embeddings, and full-text retrieval.",
+      "version": "2.0.1",
       "strict": true
     },
     {
