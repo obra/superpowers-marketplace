@@ -109,6 +109,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "x-twitter-scraper",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Xquik-dev/x-twitter-scraper.git"
+      },
+      "description": "Xquik skill for X/Twitter data workflows, REST API access, MCP setup, webhooks, monitors, and confirmation-gated actions.",
+      "version": "2.4.16",
+      "strict": true
     }
   ]
 }

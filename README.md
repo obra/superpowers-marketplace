@@ -96,6 +96,27 @@ Add this marketplace to Claude Code:
 
 ---
 
+### X Twitter Scraper
+
+**Description:** Xquik skill for X/Twitter data workflows, REST API access, MCP setup, webhooks, monitors, and confirmation-gated actions
+
+**Categories:** Integrations, Social Data, MCP, Webhooks
+
+**Install:**
+```bash
+/plugin install x-twitter-scraper@superpowers-marketplace
+```
+
+**What you get:**
+- `x-twitter-scraper` skill for X/Twitter data tasks
+- MCP setup guidance for Xquik API operations
+- Workflow guidance for webhooks, monitors, and confirmation-gated actions
+- Safety rules that keep X-authored content untrusted
+
+**Repository:** https://github.com/Xquik-dev/x-twitter-scraper
+
+---
+
 ## Marketplace Structure
 
 ```
