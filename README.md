@@ -96,6 +96,27 @@ Add this marketplace to Claude Code:
 
 ---
 
+
+### Agent Safety Preflight
+
+**Description:** Claude Code slash command and skill for generating a local repo-risk preflight receipt before autonomous AI-agent edits
+
+**Categories:** Claude Code, Agent Safety, Preflight, Repo Safety
+
+**Install:**
+```bash
+/plugin install agent-safety-preflight@superpowers-marketplace
+```
+
+**What you get:**
+- `/agent-preflight` command for a quick repo-risk receipt before agent edits
+- `agent-safety-preflight` skill for repeatable preflight checks
+- Sample local scanner output and handoff prompts for safer Claude Code/Codex/Cursor work
+
+**Repository:** https://github.com/el-zachariah/ai-agent-safety-starter-pack
+
+---
+
 ## Marketplace Structure
 
 ```

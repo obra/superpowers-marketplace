@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Skills, workflows, and productivity tools",
-    "version": "1.0.13"
+    "version": "1.0.14"
   },
   "plugins": [
     {
@@ -108,6 +108,16 @@
       },
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
+      "strict": true
+    },
+    {
+      "name": "agent-safety-preflight",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/el-zachariah/ai-agent-safety-starter-pack.git"
+      },
+      "description": "Claude Code slash command and skill for generating a local repo-risk preflight receipt before autonomous AI-agent edits.",
+      "version": "0.1.0",
       "strict": true
     }
   ]
