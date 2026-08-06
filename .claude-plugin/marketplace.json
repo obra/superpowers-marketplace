@@ -101,6 +101,16 @@
       "strict": true
     },
     {
+      "name": "email-bridge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sunlau29/email-bridge.git"
+      },
+      "description": "Remote control Claude Code via email — send tasks from any device, receive results in your inbox. IMAP polling + auto-processing loop.",
+      "version": "1.0.0",
+      "strict": false
+    },
+    {
       "name": "double-shot-latte",
       "source": {
         "source": "url",
