@@ -109,6 +109,17 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "hermes-tweet",
+      "source": {
+        "source": "github",
+        "repo": "Xquik-dev/hermes-tweet",
+        "sha": "341e991dd21e10105caf1456102f36b246f6e86e"
+      },
+      "description": "Native Hermes Agent X/Twitter plugin for read-first social media workflows and approval-gated actions.",
+      "version": "0.1.6",
+      "strict": true
     }
   ]
 }
