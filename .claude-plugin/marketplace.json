@@ -109,6 +109,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "dingdong",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/WhoKnowsNothing/claude-code-dingdong.git"
+      },
+      "description": "Cross-platform audio feedback for Claude Code — plays customizable sounds on Stop, Notification, PermissionRequest, Elicitation, and TeammateIdle events. Includes control panel, 13 WAV sounds, and config UI. Windows/macOS/Linux.",
+      "version": "2.0.0",
+      "strict": true
     }
   ]
 }
