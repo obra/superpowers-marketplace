@@ -109,6 +109,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "you",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/youdotcom-oss/agent-skills.git"
+      },
+      "description": "You.com web search, URL content extraction, cited research, finance research, and integration discovery with MCP server support, API-key auth, OAuth, and x402 payment options.",
+      "version": "0.5.0",
+      "strict": true
     }
   ]
 }
