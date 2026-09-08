@@ -109,6 +109,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "spring-boot4-upgrade",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dingdaoyi/spring-boot4-upgrade-agent.git"
+      },
+      "description": "Evidence-first Spring Boot 3.5 to 4.x migration skill for Maven and Gradle. Covers modular starters, Jackson 3, Spring Security 7, test migration, dependency and bytecode diagnosis, JVM and container checks, database migrations, and Kubernetes runtime verification. Supports Claude Code and Codex.",
+      "version": "1.0.0",
+      "strict": false
     }
   ]
 }
