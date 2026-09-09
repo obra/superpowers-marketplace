@@ -96,6 +96,29 @@ Add this marketplace to Claude Code:
 
 ---
 
+### You.com Agent Skills
+
+**Description:** You.com web search, URL content extraction, cited research, finance research, and integration discovery with MCP server support
+
+**Categories:** Search, Research, Finance, MCP, Content Extraction
+
+**Install:**
+```bash
+/plugin install you@superpowers-marketplace
+```
+
+**What you get:**
+- `you-web` skill for web search and URL content extraction via MCP server
+- `you-research` skill for deep research workflows and cited synthesis  
+- `you-finance` skill for finance research and market data
+- `you-discover` skill for AI catalog and integration discovery
+- MCP server configs for `https://api.you.com/mcp` (authenticated) and free tier
+- Support for API-key auth, OAuth, and keyless usage
+
+**Repository:** https://github.com/youdotcom-oss/agent-skills
+
+---
+
 ## Marketplace Structure
 
 ```
