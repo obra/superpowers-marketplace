@@ -109,6 +109,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "claude-mem",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thedotmack/claude-mem.git"
+      },
+      "description": "Persistent memory system for Claude Code - seamlessly preserve context across sessions with hooks, MCP server, and semantic search",
+      "version": "12.1.0",
+      "strict": true
     }
   ]
 }
