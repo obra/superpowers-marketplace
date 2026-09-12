@@ -101,6 +101,18 @@
       "strict": true
     },
     {
+      "name": "origin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/7xuanlu/origin.git",
+        "path": "plugin",
+        "ref": "main"
+      },
+      "description": "AI work memory for Claude Code. Carries sessions, decisions, lessons, project context, recall, distillation, review, and handoff through Origin's local daemon and MCP server.",
+      "version": "0.7.0",
+      "strict": true
+    },
+    {
       "name": "double-shot-latte",
       "source": {
         "source": "url",
