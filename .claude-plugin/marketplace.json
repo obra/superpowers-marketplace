@@ -109,6 +109,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "superpowers-flow-enforcer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Rainnystone/superpowers-flow-enforcer.git"
+      },
+      "description": "Workflow-aware hook gates for Superpowers that enforce phase transitions, TDD-first writes, packetized Agent task-boundary review gates, and fresh verification evidence before completion claims.",
+      "version": "1.1.0",
+      "strict": true
     }
   ]
 }
