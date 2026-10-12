@@ -109,6 +109,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "sdd-superpowers",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hllj/sdd-superpowers.git"
+      },
+      "description": "Specification-Driven Development (SDD) for Claude Code: write specs first, generate code from them. 8-skill workflow: brainstorm → specify → research → plan → tasks → execute → review.",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
