@@ -25,7 +25,7 @@ Add this marketplace to Claude Code:
 
 **What you get:**
 - 20+ battle-tested skills
-- `/brainstorm`, `/write-plan`, `/execute-plan` commands
+- `/brainstorm`, `/write-plans`, `/execute-plans` commands
 - Skills-search tool for discovery
 - SessionStart context injection
 
