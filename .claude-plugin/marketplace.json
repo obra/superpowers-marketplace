@@ -109,6 +109,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "client-secret-exposure",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ahmadalhaish-tickit/client-secret-exposure-skill.git"
+      },
+      "description": "Full-stack security audit for web, mobile, and backend — 18 areas: secret exposure, SQL injection, dependency CVEs, security headers, insecure storage, IDOR, XSS, rate limiting, bot protection, JWT security, business logic, race conditions, sequential IDs, CI/CD secrets, certificate pinning, deep link injection, SRI, and exposed infrastructure.",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
