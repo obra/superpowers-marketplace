@@ -109,6 +109,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "multi-agent",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/daodaolee/claude-skills.git"
+      },
+      "description": "Local multi-agent orchestration using tmux + jj workspaces. Spawns parallel sub-agents with isolated workspaces, contract-based coordination, and structured audit trail. Includes preflight dependency check and Chinese documentation.",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }
