@@ -109,6 +109,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "xzai-me-media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/taotaojt9988/xzai_me-skill.git"
+      },
+      "description": "AI media generation via xzai.me API: Seedance 2.0/2.5 video (10s/15s/30s), Seedream 5.0 images, 7-voice TTS, OpenAI-compatible chat. Zero-dependency CLI with async polling and local download.",
+      "version": "1.0.0",
+      "strict": false
     }
   ]
 }
