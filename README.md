@@ -96,6 +96,31 @@ Add this marketplace to Claude Code:
 
 ---
 
+### Superpowers (Safe)
+
+**Description:** Safety-hardened fork of Superpowers. Same 14 upstream skills byte-identical, plus a mandatory `safety-check` preflight with five hard gates (resource budget, command risk scan, loop/spend limits, secret/PII scan, scope confirmation) before any skill runs.
+
+**Categories:** Testing, Debugging, Collaboration, Meta, Safety, Preflight
+
+**Install:**
+```bash
+/plugin install superpowers-safe@superpowers-marketplace
+```
+
+**What you get:**
+- All 14 upstream Superpowers skills (brainstorming, subagent-driven-development, TDD, systematic-debugging, writing-plans, etc.)
+- New `safety-check` skill (5 hard gates + 10 never-override destructive-operation limits)
+- Defense-in-depth `PreToolUse` hook (`scripts/safety-guard.py`) that blocks destructive bash at the tool layer
+- Cross-runtime packaging: Claude Code, Codex, Cursor, Kimi, Gemini, Hermes, OpenCode, Pi
+- Full eval protocol in `docs/eval-protocol.md` (RED-GREEN-REFACTOR for safety-gate changes)
+- Independent sync from upstream via `scripts/sync-upstream.sh`
+
+**Repository:** https://github.com/JFWaskin/superpowers-safe
+
+> Note: this is a different scope from the `agent-safety-preflight` plugin in PR #62. That one is a single `/agent-preflight` slash command for lightweight repo scanning; this one is the full Superpowers skills library with a safety preflight embedded. Different product, different value.
+
+---
+
 ## Marketplace Structure
 
 ```

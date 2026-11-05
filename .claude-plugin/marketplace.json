@@ -109,6 +109,16 @@
       "description": "Stop 'Would you like me to continue?' interruptions. Automatically evaluates whether Claude should continue working using Claude-judged decision making.",
       "version": "1.2.0",
       "strict": true
+    },
+    {
+      "name": "superpowers-safe",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JFWaskin/superpowers-safe.git"
+      },
+      "description": "Safety-hardened fork of Superpowers with a mandatory 5-gate safety-check preflight (resource budget, command risk scan, loop/spend limits, secret/PII scan, scope confirmation) before any skill runs. All 14 upstream skills included byte-identical, plus a new opt-in safety-check skill and a defense-in-depth PreToolUse hook.",
+      "version": "6.3.0",
+      "strict": true
     }
   ]
 }
