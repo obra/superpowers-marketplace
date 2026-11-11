@@ -96,6 +96,27 @@ Add this marketplace to Claude Code:
 
 ---
 
+### SDD Superpowers
+
+**Description:** Specification-Driven Development (SDD) for Claude Code — write specs first, generate code from them
+
+**Categories:** Workflow, Planning, Specification, TDD
+
+**Install:**
+```bash
+/plugin install sdd-superpowers@superpowers-marketplace
+```
+
+**What you get:**
+- 8-skill SDD workflow: `sdd-brainstorm` → `sdd-specify` → `sdd-research` → `sdd-plan` → `sdd-tasks` → `sdd-execute` → `sdd-review`
+- Four hard gates: no code without a failing test, no completion claim without verification evidence
+- Bundled support skills (TDD, systematic-debugging, verification-before-completion, etc.)
+- Spec → plan → tasks → subagent dispatch pipeline
+
+**Repository:** https://github.com/hllj/sdd-superpowers
+
+---
+
 ## Marketplace Structure
 
 ```
