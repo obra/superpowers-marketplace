@@ -96,6 +96,27 @@ Add this marketplace to Claude Code:
 
 ---
 
+### HF Model Architecture
+
+**Description:** Capture Hugging Face model architecture diagrams and hfviewer metadata as PNG + JSON
+
+**Categories:** Hugging Face, Model Visualization, Agent Skills
+
+**Install:**
+```bash
+/plugin install hf-model-architecture@superpowers-marketplace
+```
+
+**What you get:**
+- `hf-model-architecture` skill for capturing hfviewer architecture graphs
+- Playwright CLI to export PNG diagrams and structured JSON metadata
+- Works with public Hugging Face models via hfviewer.com
+- Install script for Claude Code, Codex CLI, and Cursor
+
+**Repository:** https://github.com/ingeniousfrog/Layerdex
+
+---
+
 ## Marketplace Structure
 
 ```
