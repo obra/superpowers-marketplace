@@ -124,12 +124,16 @@
     },
     {
       "name": "private-journal-mcp",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/obra/private-journal-mcp.git"
       },
       "description": "Private journaling MCP server with semantic search. Multi-section entries (reflections, observations, project notes, technical insights), local AI embeddings, and full-text retrieval.",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "strict": true
     },
     {
